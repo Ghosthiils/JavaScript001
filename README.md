@@ -8,3 +8,6 @@ vamos estudar
 - estrutura de repeticao
 - vetor
 - interacao com o Dom
+
+
+Luiz alterou isso
