@@ -30,10 +30,31 @@ console.log(typeof fumante)
 
 
 // Operadores
-//     Operador Atribuição
-//     Operadores aritméticos
-//     Operadores relacionais
-//     Operadores lógicos
+//     Operador Atribuição ( = )
+//     Operadores aritméticos (+, -, /, *)
+console.log(10+15)
+let n1 = 10
+let n2 = 5
+console.log(n1 + n2) // soma
+console.log(n1 - n2) // subtracao
+console.log(n1 / n2) // divisao
+console.log(n1 * n2) // multiplicacao
+console.log(n1 % n2) // modulo
+//     Operadores relacionais (> , < , >= , <= , != , ==)
+console.log(n1 == n2) //igualdade
+console.log(n1 != n2) //diferente
+console.log(n1 > n2) //maior
+console.log(10 < 10) //menor
+console.log(10 <= 10) //menor igual
+console.log(150 >= 175) //maior igual
+
+//     Operadores lógicos (! , && , ||)
+console.log(!10>2) //nao
+console.log(!false) 
+
+console.log(10>2 && 35<100 && n1>n2 && 100<90) //Todas as verificacoes precisam ser verdadeiras para o resultado ser verdadeiro
+
+console.log(10 < 2 || 100 == 150 || 57 == 57) // apenas uma verificacao precisa ser verdadeira para o resultado ser verdadeiro, o resultado só sera falso quando TODAS as verificacoes forem falsas
 
 // Estrutura
 //     Estrutura de controle/decisão
