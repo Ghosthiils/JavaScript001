@@ -12,6 +12,23 @@ console.log("vc tem " + idade)
 nome = "Renato"
 idade = "25"
 console.log(nome, idade)
+
+//tipos de dados
+//text == string
+let cidade = "americana"
+console.log(typeof cidade)
+
+//numerico == number
+let salario = 1500.35
+console.log(typeof salario)
+
+
+//boleano == boleano
+let fumante = false
+
+console.log(typeof fumante)
+
+
 // Operadores
 //     Operador Atribuição
 //     Operadores aritméticos
