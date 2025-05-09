@@ -56,8 +56,26 @@ console.log(10>2 && 35<100 && n1>n2 && 100<90) //Todas as verificacoes precisam 
 
 console.log(10 < 2 || 100 == 150 || 57 == 57) // apenas uma verificacao precisa ser verdadeira para o resultado ser verdadeiro, o resultado só sera falso quando TODAS as verificacoes forem falsas
 
+//desafio 
+let preco = 100
+let precoAcrecismo = 0
+let precoDesconto = 0
+//faça um codigo que acrescente 17% ao preco e imprima
+precoAcrecismo = preco + preco * 0.17
+console.log("preco com acrescimo de " + precoAcrecismo.toFixed(2))
+//faça um codigo que desconte 7% do preco e imprima
+precoDesconto = preco - preco * 0.07
+console.log(" preco com desconto de " + precoDesconto.toFixed(2))
+
+
+
+
+
+
+
 // Estrutura
 //     Estrutura de controle/decisão
+
 //     Laços de repetição
 
 // Arrays 
