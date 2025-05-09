@@ -104,6 +104,22 @@ if(10>50) {
  }
  
 //     Laços de repetição
+// quero mostrar 10 vezes a mensagem "senac Americana"
+let controle = 1 //definicao da variavel de controle
+while(controle <= 100 ) { // condicao
+   console.log(controle)
+   controle = controle + 2 //incremento
+}
+//mostrar 10 vezes a mensagem "senac Americana"
+for(let i=1; i<=10; i=i+1) {
+console.log("Senac Americana")
+}
+
+for(let i=1; i<=50; i=i+1) {
+   console.log(i)
+}
+
+
 
 // Arrays 
 
